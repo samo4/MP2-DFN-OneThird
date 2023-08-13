@@ -1,5 +1,6 @@
-# **MP2_ESC** 
-Multi-Platform, Modular, Powerful Electronic Speed Control
+# **MP2_DFN** 
+This is a fork from badgineer Multi-Platform, Modular, Powerful Electronic Speed Control 
+the main modification of this board is conversion to NVMTSC4D3N15MC with a DFN footprint
 
 ![3D_PCB](gh_assets/3d_pcb_front.png)
 
