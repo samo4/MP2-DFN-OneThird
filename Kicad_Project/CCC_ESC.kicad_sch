@@ -5669,6 +5669,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4c60ae1-5bb9-4822-be1c-86b92a751d56)
   )
+  (text "Note: several test points were removed in order to add additional components."
+    (at 354.33 132.08 0)
+    (effects (font (size 4 4)) (justify left bottom))
+    (uuid e94c8869-9e8f-4150-b05e-1dcd370350ab)
+  )
   (text "Phase sensing" (at 312.42 154.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fe5b2438-9962-4761-ae29-bece4f965f9d)
