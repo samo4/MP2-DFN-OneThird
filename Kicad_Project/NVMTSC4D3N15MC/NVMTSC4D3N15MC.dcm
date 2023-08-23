@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NVMTSC4D3N15MC
+D MOSFET PTNG 150V IN CEBU DFNW 8X8 DUAL COOL FOR AUTOMOTIVE
+K
+F https://www.onsemi.com/pdf/datasheet/nvmtsc4d3n15mc-d.pdf
+$ENDCMP
+#
+#End Doc Library
