@@ -5830,13 +5830,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1fbdeadf-6335-4b17-a3fa-a57cdb11cfed)
   )
-  (text "MP2-DFN PUNCHLIST:\n	Clean / uninterupted VBus and GND layers\n	Restructured vbat and gnd buses for copper bus bars\n	Restructured phase buses\n	Differential lines for shunt resistors\n	Heatsink mounting holes\n	Different lines for (DRVH with HB) (DRV + GND)\n	MOSFETS changed to DFNW format (NVMTSC4D3N15MC)\n	Added gate to source 4.7nF capacitors (CGS1-18)\n	Protective 470 ohm resistors (RN7) between the drivers and PWM pill pins\n	Phase sense caps (C29, C30, C33) set to 10nF for 10kHz range filtering\n	Added zener diode (D10) protection between gate drivers and 12/5 DCDC\n	Rearranged mosfet driver area to fit 12/5 DCDC\n	Larger distance between edge and all copper fills\n	Added on board thermister\n	Restructured ceramic caps, added radial caps\n	Manual review of all parts / values / footprints in comparison to BOM\n	Removed many test points to conserve space. hopefully \n		pins can be soldered to FETs for testing."
+  (text "MP2-DFN PUNCHLIST:\n	Clean / uninterupted VBus and GND layers\n	Restructured vbat and gnd buses for copper bus bars\n	Restructured phase buses\n	Differential lines for shunt resistors\n	Heatsink mounting holes\n	Different lines for (DRVH with HB) (DRV + GND)\n	MOSFETS changed to DFNW format (NVMTSC4D3N15MC)\n	Added gate to source 4.7nF capacitors (CGS1-18)\n	Protective 470 ohm resistors (RN7) between the drivers and PWM pill pins\n	Phase sense caps (C29, C30, C33) set to 10nF for 10kHz range filtering\n	Added zener diode (D10) protection between gate drivers and 12/5 DCDC\n	Rearranged mosfet driver area to fit 12/5 DCDC\n	Larger distance between edge and all copper fills\n	Added on board thermister\n	Restructured ceramic caps, added radial caps\n	Manual review of all parts / values / footprints in comparison to BOM\n	Removed many test points to conserve space; pins can \n		be soldered to FETs for testing."
     (at 259.08 241.3 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 2c104193-e56e-4f51-bff6-d5ee5da37e84)
   )
-  (text "Use 10nF for a response in the 10kHz kind of range. "
-    (at 442.468 312.166 0)
+  (text "This was 47pF. Use 10nF for a response in \nthe 10kHz kind of range. "
+    (at 443.992 345.948 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 34335bfe-ec07-4749-999d-f8a3cd0edf38)
   )
@@ -5872,10 +5872,6 @@
     (at 40.64 195.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63ab458e-636e-415e-89c2-da682878e528)
-  )
-  (text "?????" (at 338.582 316.23 0)
-    (effects (font (size 4 4)) (justify left bottom))
-    (uuid 65a96009-98f4-4c01-af07-7badfc89029f)
   )
   (text "Fourth opamp used as overcurrent and voltage \ncomparator to protect against shoot through, \novercurrent + overvoltage in MCU crash\nIf any of the opamps outputs exceeds 3v3x8/2/(8.2+9.2) + diode forward voltage, \nthe opamp will pull low, which pulls PB12 low, triggering the STM32 hardware BRK\nTime constant approximately 0.47us\nThere's another 0.47us LPF on the F405 pill! That is not the case for Bluepill or Blackpill\n"
     (at 296.418 395.732 0)
@@ -5924,11 +5920,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ad08171b-e197-4b9e-a16f-7c848a2f1dec)
   )
+  (text "Caps for pill" (at 132.588 168.656 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b649031f-2a1f-4bea-991b-ac4e9c366f8c)
+  )
   (text "Reserved PWM\n" (at 260.35 133.35 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b751b1a2-73e9-48d1-81de-381420f9f617)
   )
-  (text "Zener sized correctly? Current spec is 3W.\nIs the 5W C2917871 a reasonable alternate?\nNote: placement will be on underside of PCB."
+  (text "Confirm zener sized correctly? Current spec is 3W.\nIs the 5W C2917871 a reasonable alternate?\nNote: placement will be on underside of PCB."
     (at 149.86 134.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d82fcd86-ab56-4042-9d81-b7324aa2d92c)
@@ -12720,31 +12720,6 @@
       (project "CCC_ESC"
         (path "/31a3399e-b0e0-4a61-aacb-f319bb9df4d3"
           (reference "#PWR0133") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 344.17 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid af60043a-423b-4e01-8e8f-4e37c46c585f)
-    (property "Reference" "#PWR02" (at 344.17 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 341.63 171.45 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 344.17 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 344.17 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8680c20-5196-4348-8d5c-77d4bd370ec5))
-    (instances
-      (project "CCC_ESC"
-        (path "/31a3399e-b0e0-4a61-aacb-f319bb9df4d3"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
