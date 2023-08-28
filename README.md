@@ -1,4 +1,4 @@
-# **MP2_DFN** 
+# **MP2-DFN** 
 A motor controller board based on the NVMTSC4D3N15MC with a DFN footprint. 
 
 The project hosted here absolutely would not have been possible without the intellectual work of the MP2-ESC, and the team that contributed to development of that ESC. 
