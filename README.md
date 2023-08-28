@@ -1,8 +1,6 @@
 # **MP2_DFN** 
-This repo is a fork from badgineer Multi-Platform, Modular, Powerful Electronic Speed Control. 
+A motor controller board based on the NVMTSC4D3N15MC with a DFN footprint. 
 
-The main modification of this board is conversion to NVMTSC4D3N15MC with a DFN footprint
+This is a fork from badgineer's Multi-Platform, Modular, Powerful Electronic Speed Control [MP2-ESC](https://github.com/badgineer/MP2-ESC). The project hosted here absolutely would not have been possible without the intellectual work of the MP2-ESC, and the team that contributed to development of that ESC. 
 
-* Derived from the badgineer's [MP2](https://github.com/badgineer/MP2-ESC)
-* Runs with the [STM32F405 pill](https://github.com/davidmolony/F405_pill)
-* Compatible with David Molony's [MESC Firmware](https://github.com/davidmolony/MESC_Firmware). 
+It should also be noted that in comparison to the MP2-ESC, this ESC is larger, more expensive, and completely untested. It doesnt however, runs with the [STM32F405 pill](https://github.com/davidmolony/F405_pill), and is fully compatible with David Molony's [MESC Firmware](https://github.com/davidmolony/MESC_Firmware). 
