@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/Users/owhite/kicad/MP2-DFN/Kicad_Project/MP2_DFN.kicad_sch</source>
-    <date>2023 August 29, Tuesday 21:31:22</date>
-    <tool>Eeschema 7.0.2-0</tool>
+    <date>2023 August 30, Wednesday 12:37:31</date>
+    <tool>Eeschema 7.0.1-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MP2_ESC_Main</title>
@@ -2764,7 +2764,7 @@
       <tstamps>67f9b27b-12df-43e8-827e-8138dbd8897a</tstamps>
     </comp>
     <comp ref="U1">
-      <value>NCP5183 / TF2190-TAH</value>
+      <value>TF2190-TAH</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C2917161</field>
@@ -2779,7 +2779,7 @@
       <tstamps>52a0a5b0-36b5-4eae-b2d2-0bad02219768</tstamps>
     </comp>
     <comp ref="U2">
-      <value>NCP5183 / TF2190-TAH</value>
+      <value>TF2190-TAH</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C2917161</field>
@@ -2794,7 +2794,7 @@
       <tstamps>d89eeeae-4f38-4a9f-9e3a-490d96a1bfad</tstamps>
     </comp>
     <comp ref="U3">
-      <value>NCP5183 / TF2190-TAH</value>
+      <value>TF2190-TAH</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
         <field name="LCSC">C2917161</field>
@@ -3246,22 +3246,22 @@
   </libparts>
   <libraries>
     <library logical="Amplifier_Operational">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>/Applications/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
     </library>
     <library logical="MP2_DFN_Custom_Symbols">
       <uri>/Users/owhite/kicad/MP2-DFN/Kicad_Project/MP2_DFN_Custom_Symbols.kicad_sym</uri>
