@@ -1,0 +1,17 @@
+(footprint "my_testpoint_D1.7mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm")
+  (tags "test point THT pad rectangle square")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.398) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cab128f0-7ed7-4fb7-b154-5bed1fb8b8ab)
+  )
+  (fp_text value "my_testpoint_D1.7mm" (at 0 2.55) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 583e27f2-96e6-49c5-ab0f-39e6b04c8303)
+  )
+  (fp_circle (center 0 0) (end 1.7 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp b37ee132-672f-4134-bf0b-6627992e26b7))
+  (pad "1" thru_hole circle (at 0 0) (size 3.2 3.2) (drill 1.7) (layers "*.Cu" "*.Mask") (remove_unused_layers) (keep_end_layers) (tstamp 52588805-7bcd-4b54-b27e-5cc9ed181ca1))
+)
