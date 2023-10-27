@@ -6,7 +6,7 @@ A motor controller board based on the NVMTSC4D3N15MC with a DFN footprint.
 Thanks to badgineer for extensive review of the circuit. 
 
 Punchlist:
-+ Removed some TSVs
++ Removed some TVSs
 + Removed one of the Vsensing circuits
 + Improved busbars for assembly
 + Heatsink for assembly
